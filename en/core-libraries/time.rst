@@ -118,6 +118,8 @@ It is also allowed to directly assign those properties to modify the date::
 
     $time->year = 2015;
     $time->timezone = 'Europe/Paris';
+    
+.. versionadded:: 3.5 $now->timezone return object(DateTimeZone)
 
 Formatting
 ==========
